@@ -9,7 +9,6 @@ Validate that specified command line parameters are
  the output on console.
 '''
 
-
 # Function adds two number and return its sum
 def add(num1, num2):
     return num1 + num2
