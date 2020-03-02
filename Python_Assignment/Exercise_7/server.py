@@ -1,3 +1,33 @@
+'''
+
+    Create a simple client-server socket based command processing application. 
+	There are two python files, one is server and other is client.
+	Python server is listening on some port on local machine and waiting for client connection.
+	Multiple client instances can make connection to the server.
+	Upon starting server, it should print on what port and IP it is listening on.
+	Default server port is defined inside server script and it can be overridden by passing command line parameter while starting server.
+	Client should accept server info as command-line parameters.
+	Upon connecting to server, client will print connected to server message.
+	Client then waits for user to input a command string. 
+	This command string is then passed to server for processing and whatever server returns in response should be printed on client std-out.
+	Implement below command->response messages at server side. 
+	Proper exception handing should be made while establishing client-server connection.
+
+  COMMAND         | RESPONSE
+
+-------------------------------
+
+  PING            | PING_OK
+
+  LIST            | LIST_OK
+
+  HELLO           | WORLD
+
+  QUIT            | QUIT_ERR
+
+  <anything else> | UNKNOWN_CMD
+
+'''
 import socket
 
 # creating socket object
