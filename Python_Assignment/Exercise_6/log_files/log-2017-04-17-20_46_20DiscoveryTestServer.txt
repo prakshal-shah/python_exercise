@@ -1,0 +1,49 @@
+[1071812.537 (009802):SsdpService:INFO]SsdpService::Initialize
+[1071812.537 (009804):MdnsService:INFO]ReconnectClient()
+[1071812.537 (009802):SsdpAPI:INFO]Register
+[1071812.537 (009802):SsdpAPI:INFO]Register Creating SsdpClient
+[1071812.537 (009802):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071812.537 (009802):DiscoveryServiceTestServer:INFO]Server constructor; pid=9802, tid=9802
+[1071812.537 (009802):DiscoveryServiceTestServer:INFO]Initialize; pid=9802, tid=9802
+[1071812.538 (009802):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071812.538 (009802):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071812.538 (009802):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071812.538 (009802):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071812.539 (009804):mDNS:INFO]Connecting...
+[1071812.539 (009804):MdnsService:INFO]ReconnectPublisher()
+[1071812.701 (009803):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071812.702 (009803):DiscoveryServiceServer:INFO]Create
+[1071812.702 (009803):DiscoveryServiceServer:INFO]Initialize
+[1071812.705 (009803):DiscoveryServiceServer:INFO]MdnsDeviceAnnouncements - name: e991ff2e-23ae-11e7-9f8e-0242ac110002
+[1071812.705 (009803):DiscoveryServiceITC:INFO]HandleMediaRendererInitDeviceRequest
+[1071815.797 (009803):DiscoveryServiceServer:INFO]MdnsAddService - name: e9920424-23ae-11e7-9f8e-0242ac110002
+[1071815.797 (009803):DiscoveryServiceITC:INFO]HandleAddServiceRequest
+[1071837.556 (009804):mDNS:INFO]Connecting...
+[1071837.556 (009804):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071837.556 (009804):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071837.556 (009804):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071837.556 (009804):SsdpService:INFO]BroadcastInitialDeviceAnnouncement
+[1071837.556 (009804):MdnsService:INFO]BroadcastInitialDeviceAnnouncement(e991ff2e-23ae-11e7-9f8e-0242ac110002)
+[1071837.556 (009804):MdnsService:INFO]AddService(e9920424-23ae-11e7-9f8e-0242ac110002 - _testsuperservice._tcp)
+[1071837.557 (009804):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071837.557 (009804):SsdpAPI:INFO]FireRegisteredEvent
+[1071837.557 (009804):SsdpService:INFO]Registered()
+[1071837.557 (009804):SsdpControl:INFO]BroadcastInitialDeviceAnnouncement  sending UPnP_SOURCE_MSG_ID_MediaRendererInitDevice
+[1071838.209 (009805):mDNS:INFO]Client state: REGISTERING.
+[1071838.209 (010569):mDNS:INFO]Client state: REGISTERING.
+[1071839.172 (009805):mDNS:INFO]Client state: RUNNING.
+[1071839.172 (010569):mDNS:INFO]Client state: RUNNING.
+[1071839.172 (009804):MdnsService:INFO]ClientConnected()
+[1071839.172 (009804):MdnsService:INFO]PublisherConnected()
+[1071839.378 (009804):MdnsService:INFO]Discovered(e991ff2e-23ae-11e7-9f8e-0242ac110002)
+[1071840.137 (010569):mDNS:INFO]Service e991ff2e-23ae-11e7-9f8e-0242ac110002: established
+[1071840.137 (009804):MdnsService:INFO]RendererPublished()
+[1071840.137 (009804):MdnsService:INFO]Resolved(e991ff2e-23ae-11e7-9f8e-0242ac110002)
+[1071840.139 (010569):mDNS:INFO]Service e9920424-23ae-11e7-9f8e-0242ac110002: established
+[1071840.139 (009804):MdnsService:INFO]ServicePublished(e9920424-23ae-11e7-9f8e-0242ac110002)
+[1071843.734 (009803):Network:INFO]Received EOS (fd 19)
+[1071843.734 (009803):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071843.734 (009803):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071843.734 (009803):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071843.734 (009803):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071843.734 (009803):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set

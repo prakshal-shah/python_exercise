@@ -1,0 +1,50 @@
+[1071845.719 (010840):SsdpService:INFO]SsdpService::Initialize
+[1071845.719 (010844):MdnsService:INFO]ReconnectClient()
+[1071845.719 (010840):SsdpAPI:INFO]Register
+[1071845.719 (010840):SsdpAPI:INFO]Register Creating SsdpClient
+[1071845.719 (010840):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071845.719 (010840):DiscoveryServiceTestServer:INFO]Server constructor; pid=10840, tid=10840
+[1071845.719 (010840):DiscoveryServiceTestServer:INFO]Initialize; pid=10840, tid=10840
+[1071845.719 (010840):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071845.719 (010840):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071845.719 (010840):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071845.719 (010840):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071845.720 (010844):mDNS:INFO]Connecting...
+[1071845.720 (010844):MdnsService:INFO]ReconnectPublisher()
+[1071846.109 (010843):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071846.109 (010843):DiscoveryServiceServer:INFO]Create
+[1071846.109 (010843):DiscoveryServiceServer:INFO]Initialize
+[1071846.624 (010845):mDNS:INFO]Client state: REGISTERING.
+WARNING: Unhandled message: interface=(null), path=(null), member=(null)
+[1071846.624 (010844):mDNS:INFO]Client state: REGISTERING.
+[1071846.625 (010844):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071846.625 (010844):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071846.625 (010844):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071846.625 (010844):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071846.625 (010844):SsdpAPI:INFO]FireRegisteredEvent
+[1071846.625 (010844):SsdpService:INFO]Registered()
+[1071847.434 (010845):mDNS:INFO]Client state: RUNNING.
+[1071847.434 (010881):mDNS:INFO]Client state: RUNNING.
+[1071847.434 (010844):MdnsService:INFO]ClientConnected()
+[1071847.435 (010844):MdnsService:INFO]PublisherConnected()
+[1071848.963 (010843):DiscoveryServiceServer:INFO]MdnsAddService - name: ff2eaeae-23ae-11e7-9f8e-0242ac110002
+[1071848.963 (010843):DiscoveryServiceITC:INFO]HandleAddServiceRequest
+[1071848.963 (010844):MdnsService:INFO]AddService(ff2eaeae-23ae-11e7-9f8e-0242ac110002 - _testsuperservice0._tcp)
+[1071849.775 (010881):mDNS:INFO]Service ff2eaeae-23ae-11e7-9f8e-0242ac110002: established
+[1071849.775 (010844):MdnsService:INFO]ServicePublished(ff2eaeae-23ae-11e7-9f8e-0242ac110002)
+[1071852.049 (010843):DiscoveryServiceServer:INFO]MdnsAddService - name: 0105a07a-23af-11e7-9f8e-0242ac110002
+[1071852.049 (010843):DiscoveryServiceITC:INFO]HandleAddServiceRequest
+[1071852.049 (010844):MdnsService:INFO]AddService(0105a07a-23af-11e7-9f8e-0242ac110002 - _testsuperservice1._tcp)
+[1071852.861 (010881):mDNS:INFO]Service 0105a07a-23af-11e7-9f8e-0242ac110002: established
+[1071852.861 (010844):MdnsService:INFO]ServicePublished(0105a07a-23af-11e7-9f8e-0242ac110002)
+[1071855.147 (010843):DiscoveryServiceServer:INFO]MdnsAddService - name: 02de584c-23af-11e7-9f8e-0242ac110002
+[1071855.147 (010843):DiscoveryServiceITC:INFO]HandleAddServiceRequest
+[1071855.147 (010844):MdnsService:INFO]AddService(02de584c-23af-11e7-9f8e-0242ac110002 - _testsuperservice2._tcp)
+[1071855.959 (010881):mDNS:INFO]Service 02de584c-23af-11e7-9f8e-0242ac110002: established
+[1071855.960 (010844):MdnsService:INFO]ServicePublished(02de584c-23af-11e7-9f8e-0242ac110002)
+[1071862.125 (010843):Network:INFO]Received EOS (fd 17)
+[1071862.125 (010843):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071862.125 (010843):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071862.125 (010843):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071862.125 (010843):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071862.125 (010843):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set

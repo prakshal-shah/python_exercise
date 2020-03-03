@@ -50,33 +50,33 @@ class Statistics:
         for log_files in os.listdir():
             print(log_files)
             
-			# opens all log files one by one
+            # opens all log files one by one
             with open(log_files) as f:
                 f = f.readlines()
-               
-			    # set error, warnings, info, line to zero everytime when new file opens
+                
+                # set error, warnings, info, line to zero everytime when new file opens
                 num_of_errors = 0
                 num_of_warnings = 0
                 num_of_info = 0
                 num_of_log_lines = 0
                 for x in f:
-                   
-				   # if found ERROR then increases the num_of_errors counter
-                    if "ERROR" in x:
+                    m=x[x.find('[')+1 : x.find(']')]
+                    # if found ERROR then increases the num_of_errors counter
+                    if "ERROR" in m:
                         num_of_errors += 1
 
                     # if found WARNING then increases the num_of_warnings counter
-                    if "WARNING" in x:
+                    if "WARNING" in m:
                         num_of_warnings += 1
                     
                     # if found INFO then increases the num_of_info counter                    
-                    if "INFO" in x:
+                    if "INFO" in m:
                         num_of_info += 1
                    
-				   # Increasing line counter whenever new line read         
+                    # Increasing line counter whenever new line read         
                     num_of_log_lines += 1
            
-		    # calling print_stats function with passing all counters
+            # calling print_stats function with passing all counters
             print_stats(num_of_errors, num_of_warnings, num_of_info, num_of_log_lines)
 
 # Function that prints all counters (num_of_errors, num_of_warnings, num_of_info, num_of_log_lines)
