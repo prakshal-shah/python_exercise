@@ -14,20 +14,22 @@ Also validate that exactly two arguments are passed to the main program from com
 Main program should call all three math functions over the two numbers passed in and print the output on console.
 '''
 
-import sys
 import argparse
 from math1 import *
 
 #creating object of parser
 parser=argparse.ArgumentParser("File program")
-#check how many values are passed and that are integers or not?
-parser.add_argument("add", nargs=2, metavar="enter 2 numbers only", type=int, help="Enter integers only and only two arguments")
+
+#check how many values are passed and that are float or not?
+parser.add_argument("input", nargs=2, type=float, help="Enter integers only and only two arguments")
+
 #parsing argument from standard input
 args=parser.parse_args()
 
-#assigning command line values to a and b
-num1,num2=args.add[0:2]
+#assigning command line values to num1 and num2
+num1,num2=args.input[0:2]
+
 #calling all functions of math1 file
-print(add(num1,num2))
-print(mul(num1,num2))
-print(diff(num1,num2))
+print("Addition is: ",add(num1,num2))
+print("Multiplication is: ",mul(num1,num2))
+print("Difference is: ",diff(num1,num2))	
