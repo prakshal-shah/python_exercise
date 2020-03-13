@@ -25,7 +25,7 @@ import urllib3
 import smtplib
 from smtplib import SMTPException
 from geopy.geocoders import Nominatim
-
+import json
 #Fetching xml file
 mytree=ET.parse('assignment9.xml')
 
@@ -42,18 +42,31 @@ for x in root_element.iter("API_URL"):
     b=f"http://maps.googleapis.com/maps/api/geocode/json?latlng={user_latitude},{user_longitude}"
     x.text=b
     print(b)
+
 #Writing new URL to XML file
-mytree.write('mine.xml')
+mytree.write('assignment9.xml')
 
 geolocator = Nominatim(user_agent="my-application")
 location = geolocator.reverse(f"{user_latitude}, {user_longitude}")
-print(location.address)
-# print(location.raw)
+
+data=[]
 #assigning value to city state and country
-city=location.raw["address"]["state_district"]
-state=location.raw["address"]["state"]
-country=location.raw["address"]["country"]
-print(city,"\n",state,"\n",country)
+
+city="City-   "+location.raw["address"]["state_district"]
+state="State-   "+location.raw["address"]["state"]
+country="Country-   "+location.raw["address"]["country"]
+data.append(city)
+data.append(state)
+data.append(country)
+
+with open('location.txt','w') as json_file:
+    json.dump(data,json_file)
+# print(location.raw)
+with open('location.txt') as json_read:
+    data=json.load(json_read)
+    for i in data:
+        print(i)
+        
 #Calling the URL
 http = urllib3.PoolManager()
 respone_code = http.request('GET', b)
@@ -65,17 +78,15 @@ if(respone_code.status==200):
         user_mail_id=x.text
     user_mail_id=input("Enter your Email id")
     x.text=user_mail_id
-    mytree.write('mine.xml')
+    mytree.write('assignment9.xml')
+    #Sender's mail
+    from_user="ENTER YOUR MAIL ID"
     
-    from_user="sp2605168@gmail.com"
-    
-    message = f"""From: From Person <{from_user}>
-    To:To Person <{user_mail_id}>
-    Subject:Message from python script
+    message = f"""Subject: Message from python script
 
-    City-{city}
-    State-{state}
-    Country-{country}   
+    {city}
+    {state}
+    {country}   
     """
     #print is for if you want to see the message
     #print(message)
@@ -86,8 +97,8 @@ if(respone_code.status==200):
         #gmail can't allow to send mail without encrypting so starttls method is written
         gmail_server.starttls()
         #Login to my gmail account to send mail
-        gmail_server.login("sp2605168@gmail.com", "85V9PSYGCjbrqyA")        
-        #sendmail method sends mail and it has three arguments 1. sender 2. receiver 3. message
+        gmail_server.login("ENTER YOUR MAIL ID", "ENTER YOUR MAIL PASSWORD")        
+        #send mail method sends mail and it has three arguments 1. sender 2. receiver 3. message
         gmail_server.sendmail(from_user,user_mail_id,message)
         #Just for acknowledgement for user
         print("Sent Successfully")

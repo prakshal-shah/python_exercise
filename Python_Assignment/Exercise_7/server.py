@@ -29,54 +29,81 @@
 
 '''
 import socket
-
+from socket import gethostbyname
+import sys
+import threading
+from threading import Thread
+class conn_client(Thread):
+    
+    def run(self):
+        try:   
+            # print("ip is:",gethostbyname(host),"Port is:",port)
+            
+            while True: 
+               
+                    user_input = client_socket.recv(1024).decode('ascii')
+                   
+                    if user_input == "PING":
+                        msg="PING_OK"
+                   
+                    elif user_input == "LIST":
+                        msg="LIST_OK"
+                    
+                    elif user_input == "HELLO":
+                        msg="WORLD"
+                   
+                    elif user_input == "QUIT":
+                        msg="QUIT_ERR"
+                  
+                    else:
+                        msg="UNKNOWN_CMD"
+                    # Passing message to client_socket
+                    client_socket.send(msg.encode('ascii'))
+                    user_choice= client_socket.recv(1024).decode('ascii')
+                    if user_choice == "yes" or user_choice == "YES":
+                        print("")
+                    #Checking commands with user entered command
+                    else:
+                        th_lock.release()
+                        #Closing client-socket
+                        client_socket.close()
+                        break
+                
+        except:
+            print("")        
+     
 # creating socket object
 socket_obj = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
+            
 # getting host name and setting port 
 host = socket.gethostname()
-port = 124
-
+port = 200
+            
+try:
+    host= sys.argv[1]
+    port=sys.argv[2]
+except:
+    print("no external port or host passed in command line argument")
+            
 # binding host to the port
-socket_obj.bind((host, port))
-socket_obj.listen(1)
+try:
+                socket_obj.bind((host, int(port)))
+                print("IP is:",gethostbyname(host),"Port is:",port)
 
-# Establishing connection
-client_socket, adr = socket_obj.accept()
-while True:
-    try:
-        port = int(input("On what port you want to connect"))
-        break
-    except Exception:
-        print("Enter integer only")
+except socket.gaierror:
+                print("Wrong IPaddress")
+except:
+                print("Error while connecting")            
+thread_queue=[]
+th_lock=threading.Lock()
+while True:        
+    socket_obj.listen(6)
+    # Establishing connection
+    client_socket, adr = socket_obj.accept()
+    newthread=conn_client()
+    newthread.start() 
+    th_lock.acquire()   
+    thread_queue.append(newthread)
 
-# Passing message to client_socket
-client_socket.send(str(port).encode('utf8'))
-socket_obj.close()
-
-# creating new socket object
-socket_newobj = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# binding host to the port
-socket_newobj.bind((host, int(port)))
-socket_newobj.listen(2)
-
-# Establishing new connection
-client_socket, adr = socket_newobj.accept()
-
-user_input = client_socket.recv(1024).decode('ascii')
-msg=""
-print("You entered", user_input)
-if user_input == "PING":
-    msg="PING_OK"
-elif user_input == "LIST":
-    msg="LIST_OK"
-elif user_input == "HELLO":
-    msg="WORLD"
-elif user_input == "QUIT":
-    msg="QUIT_ERR"
-else:
-    msg="UNKNOWN_CMD"
-
-# Passing message to client_socket
-client_socket.send(msg.encode('ascii'))
-client_socket.close()
+for thread_i in thread_queue:
+    thread_i.join()
