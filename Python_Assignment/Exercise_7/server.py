@@ -29,49 +29,44 @@
 
 '''
 import socket
-from socket import gethostbyname
 import sys
-import threading
-from threading import Thread
-class conn_client(Thread):
-    
-    def run(self):
-        try:   
-            # print("ip is:",gethostbyname(host),"Port is:",port)
+from socket import gethostbyname
+   
+def conn_client(client_socket):
             
-            while True: 
+    try: 
+        while True: 
                
-                    user_input = client_socket.recv(1024).decode('ascii')
-                   
-                    if user_input == "PING":
-                        msg="PING_OK"
-                   
-                    elif user_input == "LIST":
-                        msg="LIST_OK"
-                    
-                    elif user_input == "HELLO":
-                        msg="WORLD"
-                   
-                    elif user_input == "QUIT":
-                        msg="QUIT_ERR"
-                  
-                    else:
-                        msg="UNKNOWN_CMD"
-                    # Passing message to client_socket
-                    client_socket.send(msg.encode('ascii'))
-                    user_choice= client_socket.recv(1024).decode('ascii')
-                    if user_choice == "yes" or user_choice == "YES":
-                        print("")
-                    #Checking commands with user entered command
-                    else:
-                        th_lock.release()
-                        #Closing client-socket
-                        client_socket.close()
-                        break
+            user_input = client_socket.recv(1024).decode('ascii')
+            #if and else if to find match with predefined commands
+            if user_input == "PING":
+                msg = "PING_OK"
+               
+            elif user_input == "LIST":
+                msg = "LIST_OK"
                 
-        except:
-            print("")        
-     
+            elif user_input == "HELLO":
+                msg = "WORLD"
+               
+            elif user_input == "QUIT":
+                msg = "QUIT_ERR"
+              
+            else:
+                msg = "UNKNOWN_CMD"
+                
+            # Passing message to client_socket
+            client_socket.send(msg.encode('ascii'))
+            user_choice = client_socket.recv(1024).decode('ascii')
+            if user_choice == "yes" or user_choice == "YES":
+                print("")
+                # Checking commands with user entered command
+            else:
+                # Closing client-socket
+                client_socket.close()
+                        
+    except :
+        print("")        
+
 # creating socket object
 socket_obj = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             
@@ -80,30 +75,25 @@ host = socket.gethostname()
 port = 200
             
 try:
-    host= sys.argv[1]
-    port=sys.argv[2]
+    #Taking input from command line argument and assigning values to host and port
+    host = sys.argv[1]
+    port = sys.argv[2]
 except:
     print("no external port or host passed in command line argument")
             
 # binding host to the port
 try:
-                socket_obj.bind((host, int(port)))
-                print("IP is:",gethostbyname(host),"Port is:",port)
-
-except socket.gaierror:
-                print("Wrong IPaddress")
+    socket_obj.bind((host, int(port)))
+    print("server IP is:",gethostbyname(host),"Port is:",port)
+except socket.gaierror:#If user enter wrong IPaddress
+    print("Wrong IPaddress")
 except:
-                print("Error while connecting")            
-thread_queue=[]
-th_lock=threading.Lock()
-while True:        
-    socket_obj.listen(6)
-    # Establishing connection
-    client_socket, adr = socket_obj.accept()
-    newthread=conn_client()
-    newthread.start() 
-    th_lock.acquire()   
-    thread_queue.append(newthread)
+    print("Error while connecting")            
 
-for thread_i in thread_queue:
-    thread_i.join()
+while True:  
+    socket_obj.listen(2)
+    # Establishing connection
+    client_socket, adr = socket_obj.accept()    
+    obj = conn_client(client_socket)
+    
+socket_obj.close()

@@ -18,6 +18,7 @@ try:
     # Connecting the host on port
     try:
                 socket_obj.connect((host, int(port)))
+                print(host,port)
                 print("Connected to server")
 
     except socket.gaierror:#gaierror is for, if user enters wrong IP address
