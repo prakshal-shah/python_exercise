@@ -1,3 +1,12 @@
+"""
+User enter the details of table to perform CRUD operations.
+The main.py get only user input and calling the methods of another class Methods are for,
+creating table, insert into table, Update table, Delete row, Delete/Drop Table, Print all data of a table.
+Firstly when file run it should ask user to which database file he/she want to perform all operations, if that database dosen't exists then the con structor should make new database file.
+Another file cosists only Methods.
+
+"""
+
 from pip._vendor.msgpack.fallback import xrange
 from operations import sql_operations
 import sqlite3
