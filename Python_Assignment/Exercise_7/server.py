@@ -31,41 +31,52 @@
 import socket
 import sys
 from socket import gethostbyname
-   
+
+activer=True   
 def conn_client(client_socket):
-            
-    try: 
-        while True: 
-               
+      
+    global activer
+    while activer: 
+        try:   
             user_input = client_socket.recv(1024).decode('ascii')
-            #if and else if to find match with predefined commands
-            if user_input == "PING":
-                msg = "PING_OK"
-               
-            elif user_input == "LIST":
-                msg = "LIST_OK"
-                
-            elif user_input == "HELLO":
-                msg = "WORLD"
-               
-            elif user_input == "QUIT":
-                msg = "QUIT_ERR"
-              
-            else:
-                msg = "UNKNOWN_CMD"
-                
-            # Passing message to client_socket
+        except:
+            print("Old Connection closed")
+            activer=False
+            
+        if user_input == "PING":
+            msg = "PING_OK"
+           
+        elif user_input == "LIST":
+            msg = "LIST_OK"
+            
+        elif user_input == "HELLO":
+            msg = "WORLD"
+           
+        elif user_input == "QUIT":
+            msg = "QUIT_ERR"
+          
+        else:
+            msg = "UNKNOWN_CMD"
+        
+        try:    
+        # Passing message to client_socket
             client_socket.send(msg.encode('ascii'))
+        except:
+#                 print("Error while sending to old Client")
+            activer=False  
+        try:
             user_choice = client_socket.recv(1024).decode('ascii')
-            if user_choice == "yes" or user_choice == "YES":
-                print("")
-                # Checking commands with user entered command
-            else:
-                # Closing client-socket
-                client_socket.close()
+        except :
+#                 print("Error while receiving to old Client")
+            activer=False   
+        if user_choice == "yes" or user_choice == "YES":
+            print("It means you want to enter again")
+            # Checking commands with user entered command
+        else:
+            # Closing client-socket
+            client_socket.close()
                         
-    except :
-        print("")        
+                 
 
 # creating socket object
 socket_obj = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -75,7 +86,7 @@ host = socket.gethostname()
 port = 200
             
 try:
-    #Taking input from command line argument and assigning values to host and port
+    #Taking input from command line argument and assigning it to host and port
     host = sys.argv[1]
     port = sys.argv[2]
 except:
@@ -83,17 +94,22 @@ except:
             
 # binding host to the port
 try:
+    print(host)
     socket_obj.bind((host, int(port)))
     print("server IP is:",gethostbyname(host),"Port is:",port)
-except socket.gaierror:#If user enter wrong IPaddress
+except socket.gaierror:
     print("Wrong IPaddress")
 except:
     print("Error while connecting")            
 
 while True:  
-    socket_obj.listen(2)
+    socket_obj.listen(3)
     # Establishing connection
     client_socket, adr = socket_obj.accept()    
-    obj = conn_client(client_socket)
-    
+    try:
+        obj = conn_client(client_socket)
+        activer=True
+    except:
+        print("Not connecting ....")
+        activer=False
 socket_obj.close()
