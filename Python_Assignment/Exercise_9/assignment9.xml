@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CONFIG>
+
+  <API_URL>http://maps.googleapis.com/maps/api/geocode/json?latlng=35.3573875,69.9718617,3z</API_URL>
+
+  <EMAIL_ID>email_recipient@domain.com</EMAIL_ID>
+ 
+
+</CONFIG>

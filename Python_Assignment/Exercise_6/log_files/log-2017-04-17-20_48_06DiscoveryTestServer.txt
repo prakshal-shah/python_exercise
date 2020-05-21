@@ -1,0 +1,309 @@
+[1071918.623 (013154):SsdpService:INFO]SsdpService::Initialize
+[1071918.623 (013158):MdnsService:INFO]ReconnectClient()
+[1071918.623 (013154):SsdpAPI:INFO]Register
+[1071918.623 (013154):SsdpAPI:INFO]Register Creating SsdpClient
+[1071918.623 (013154):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071918.623 (013154):DiscoveryServiceTestServer:INFO]Server constructor; pid=13154, tid=13154
+[1071918.623 (013154):DiscoveryServiceTestServer:INFO]Initialize; pid=13154, tid=13154
+[1071918.624 (013154):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071918.624 (013154):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071918.624 (013154):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071918.624 (013154):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071918.626 (013158):mDNS:INFO]Client state: REGISTERING.
+[1071918.626 (013158):MdnsService:INFO]ReconnectPublisher()
+[1071918.628 (013158):mDNS:INFO]Client state: REGISTERING.
+[1071918.628 (013158):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071918.628 (013158):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071918.628 (013158):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071918.628 (013158):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071918.629 (013158):SsdpAPI:INFO]FireRegisteredEvent
+[1071918.629 (013158):SsdpService:INFO]Registered()
+[1071918.749 (013160):mDNS:INFO]Client state: RUNNING.
+[1071918.749 (013159):mDNS:INFO]Client state: RUNNING.
+[1071918.749 (013158):MdnsService:INFO]PublisherConnected()
+[1071918.749 (013158):MdnsService:INFO]ClientConnected()
+[1071918.782 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071918.782 (013157):DiscoveryServiceServer:INFO]Create
+[1071918.782 (013157):DiscoveryServiceServer:INFO]Initialize
+[1071918.925 (013158):MdnsService:INFO]Discovered(267cb2da-23af-11e7-ae86-0242ac110003)
+[1071918.926 (013158):MdnsService:INFO]Resolved(267cb2da-23af-11e7-ae86-0242ac110003)
+[1071920.093 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=28e5e546-23af-11e7-9f8e-0242ac110002
+[1071920.093 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1071920.093 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 28e5e546-23af-11e7-9f8e-0242ac110002
+[1071920.093 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1071920.093 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 28e5e546-23af-11e7-9f8e-0242ac110002, status=1**********
+[1071920.094 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=28e5e546-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:d52943c6-23ae-11e7-ae86-0242ac110003,location=http://172.17.0.2:42023/28e5e546-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071920.094 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071921.979 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=28e5e546-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:28e5e546-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:42023/28e5e546-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071921.979 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071923.226 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=28e5e546-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:28e5e546-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:42023/28e5e546-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1071923.226 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071924.544 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071924.544 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071924.544 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1071924.569 (013158):MdnsService:INFO]Removed(267cb2da-23af-11e7-ae86-0242ac110003)
+[1071925.795 (013157):Network:INFO]Received EOS (fd 24)
+[1071925.795 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071925.795 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071925.796 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071925.796 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071925.796 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071926.771 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071926.771 (013157):DiscoveryServiceServer:INFO]Create
+[1071926.771 (013157):DiscoveryServiceServer:INFO]Initialize
+[1071926.771 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071928.422 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=2de9b914-23af-11e7-9f8e-0242ac110002
+[1071928.422 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1071928.422 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 2de9b914-23af-11e7-9f8e-0242ac110002
+[1071928.422 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1071928.422 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 2de9b914-23af-11e7-9f8e-0242ac110002, status=1**********
+[1071930.964 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=2de9b914-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:2de9b914-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:41254/2de9b914-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071930.964 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071931.587 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=2de9b914-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:2de9b914-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:41254/2de9b914-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1071931.587 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071935.968 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=2de9b914-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:2de9b914-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44438/2de9b914-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071935.968 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071936.993 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=2de9b914-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:2de9b914-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44438/2de9b914-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1071936.993 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071941.977 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=2de9b914-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:2de9b914-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:39935/2de9b914-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071941.977 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071943.264 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=2de9b914-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:2de9b914-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:39935/2de9b914-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1071943.264 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071944.686 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071944.686 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071944.686 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1071946.220 (013157):Network:INFO]Received EOS (fd 24)
+[1071946.220 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071946.220 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071946.221 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071946.221 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071946.221 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071947.355 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071947.355 (013157):DiscoveryServiceServer:INFO]Create
+[1071947.355 (013157):DiscoveryServiceServer:INFO]Initialize
+[1071947.355 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071954.379 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=3a151c56-23af-11e7-9f8e-0242ac110002
+[1071954.379 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1071954.379 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 3a151c56-23af-11e7-9f8e-0242ac110002
+[1071954.379 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1071954.380 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 3a151c56-23af-11e7-9f8e-0242ac110002, status=1**********
+[1071954.380 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=3a151c56-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:d52943c6-23ae-11e7-ae86-0242ac110003,location=http://172.17.0.2:34749/3a151c56-23af-11e7-9f8e-0242ac110002/description-2.xml, DeviceState=ONLINE
+[1071954.380 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071990.015 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071990.015 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071990.016 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1071991.267 (013157):Network:INFO]Received EOS (fd 24)
+[1071991.267 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071991.267 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071991.267 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071991.267 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071991.267 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071991.783 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071991.783 (013157):DiscoveryServiceServer:INFO]Create
+[1071991.783 (013157):DiscoveryServiceServer:INFO]Initialize
+[1071991.783 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071995.320 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=54732840-23af-11e7-9f8e-0242ac110002
+[1071995.320 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1071995.320 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 54732840-23af-11e7-9f8e-0242ac110002
+[1071995.320 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1071995.320 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 54732840-23af-11e7-9f8e-0242ac110002, status=1**********
+[1071995.321 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:3a151c56-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071995.321 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:54732840-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071995.321 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:d52943c6-23ae-11e7-ae86-0242ac110003,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071995.321 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071995.321 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071995.321 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071996.680 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=552b98f8-23af-11e7-9f8e-0242ac110002
+[1071996.680 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1071996.680 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 552b98f8-23af-11e7-9f8e-0242ac110002
+[1071996.680 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 552b98f8-23af-11e7-9f8e-0242ac110002, status=1**********
+[1071996.681 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:3a151c56-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071996.681 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:54732840-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071996.681 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071996.681 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:d52943c6-23ae-11e7-ae86-0242ac110003,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071996.681 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071996.681 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071996.969 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=552b98f8-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:552b98f8-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:33360/552b98f8-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071996.969 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071999.542 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=54732840-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:54732840-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44270/54732840-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1071999.542 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072000.768 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=552b98f8-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:552b98f8-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:33360/552b98f8-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1072000.768 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072001.810 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072001.810 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072002.493 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072002.493 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072002.493 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1072004.745 (013157):Network:INFO]Received EOS (fd 24)
+[1072004.745 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072004.745 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072004.746 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072004.746 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072004.746 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1072005.271 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1072005.271 (013157):DiscoveryServiceServer:INFO]Create
+[1072005.271 (013157):DiscoveryServiceServer:INFO]Initialize
+[1072005.271 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1072006.430 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=5c706b84-23af-11e7-9f8e-0242ac110002
+[1072006.430 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072006.430 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 5c706b84-23af-11e7-9f8e-0242ac110002
+[1072006.430 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1072006.430 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 5c706b84-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072006.431 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=5c706b84-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:3a151c56-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43482/5c706b84-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072006.431 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=5c706b84-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:d52943c6-23ae-11e7-ae86-0242ac110003,location=http://172.17.0.2:43482/5c706b84-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072006.431 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072006.431 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072008.969 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=5c706b84-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:5c706b84-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43482/5c706b84-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072008.969 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072009.652 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=5c706b84-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:5c706b84-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43482/5c706b84-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1072009.652 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072010.607 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072010.607 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072010.607 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1072016.889 (013157):Network:INFO]Received EOS (fd 24)
+[1072016.889 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072016.889 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072016.889 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072016.889 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072016.889 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1072017.464 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1072017.464 (013157):DiscoveryServiceServer:INFO]Create
+[1072017.464 (013157):DiscoveryServiceServer:INFO]Initialize
+[1072017.464 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1072017.739 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=63ba0a94-23af-11e7-9f8e-0242ac110002
+[1072017.739 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072017.739 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 63ba0a94-23af-11e7-9f8e-0242ac110002
+[1072017.739 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1072017.739 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 63ba0a94-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072020.969 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=63ba0a94-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:63ba0a94-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44664/63ba0a94-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072020.969 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072021.632 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=63ba0a94-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:63ba0a94-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:44664/63ba0a94-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1072021.632 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072022.707 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072022.707 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072022.707 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1072024.224 (013157):Network:INFO]Received EOS (fd 24)
+[1072024.224 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072024.224 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072024.225 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072024.225 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072024.225 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1072024.857 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1072024.857 (013157):DiscoveryServiceServer:INFO]Create
+[1072024.857 (013157):DiscoveryServiceServer:INFO]Initialize
+[1072024.858 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1072025.950 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=68317bd4-23af-11e7-9f8e-0242ac110002
+[1072025.950 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072025.950 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 68317bd4-23af-11e7-9f8e-0242ac110002
+[1072025.950 (013158):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1072025.950 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 68317bd4-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072026.264 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=685000c2-23af-11e7-9f8e-0242ac110002
+[1072026.265 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072026.265 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 685000c2-23af-11e7-9f8e-0242ac110002
+[1072026.265 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 685000c2-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072026.579 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=686e8a56-23af-11e7-9f8e-0242ac110002
+[1072026.579 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072026.579 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 686e8a56-23af-11e7-9f8e-0242ac110002
+[1072026.579 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 686e8a56-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072026.893 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=688e5ad4-23af-11e7-9f8e-0242ac110002
+[1072026.893 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072026.893 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 688e5ad4-23af-11e7-9f8e-0242ac110002
+[1072026.894 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 688e5ad4-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072027.158 (013157):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=68ace4fe-23af-11e7-9f8e-0242ac110002
+[1072027.158 (013157):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1072027.158 (013158):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 68ace4fe-23af-11e7-9f8e-0242ac110002
+[1072027.158 (013157):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 68ace4fe-23af-11e7-9f8e-0242ac110002, status=1**********
+[1072030.980 (013158):SsdpService:INFO]HandleDeviceStatus()-ERROR while Calling cb for registered filter=68317bd4-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:68317bd4-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:46813/68317bd4-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072030.980 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072031.603 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=68317bd4-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:68317bd4-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:46813/68317bd4-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1072031.603 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072035.965 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=685000c2-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:685000c2-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43608/685000c2-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072035.965 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072036.528 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=685000c2-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:685000c2-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43608/685000c2-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1072036.528 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072040.971 (013158):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=686e8a56-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:686e8a56-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:36813/686e8a56-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1072040.971 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072041.513 (013158):SsdpService:INFO]HandleDeviceStatus()-[ERROR] while Calling cb for registered filter=686e8a56-23af-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:686e8a56-23af-11e7-9f8e-0242ac110002,location=http://172.17.0.2:36813/686e8a56-23af-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1072041.514 (013157):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1072042.837 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072042.837 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072043.329 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072043.329 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072043.821 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072043.821 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072044.313 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072044.313 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072045.005 (013157):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1072045.005 (013157):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1072045.005 (013158):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1072048.283 (013157):Network:INFO]Received EOS (fd 24)
+[1072048.283 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072048.283 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072048.283 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072048.283 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072048.283 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1072048.890 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1072048.890 (013157):DiscoveryServiceServer:INFO]Create
+[1072048.890 (013157):DiscoveryServiceServer:INFO]Initialize
+[1072048.891 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1072055.561 (013157):DiscoveryServiceServer:INFO]GetDeviceList
+[1072055.561 (013157):DiscoveryServiceITC:INFO]GetDeviceList
+[1072055.561 (013158):SsdpService:INFO]GetDeviceList
+[1072055.562 (013157):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1072061.648 (013157):DiscoveryServiceServer:INFO]GetDeviceList
+[1072061.648 (013157):DiscoveryServiceITC:INFO]GetDeviceList
+[1072061.648 (013158):SsdpService:INFO]GetDeviceList
+[1072061.649 (013157):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1072062.924 (013157):Network:INFO]Received EOS (fd 24)
+[1072062.924 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072062.924 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072062.924 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072062.924 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072062.924 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1072063.500 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1072063.500 (013157):DiscoveryServiceServer:INFO]Create
+[1072063.500 (013157):DiscoveryServiceServer:INFO]Initialize
+[1072063.500 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1072072.705 (013157):DiscoveryServiceServer:INFO]GetDeviceList
+[1072072.705 (013157):DiscoveryServiceITC:INFO]GetDeviceList
+[1072072.705 (013158):SsdpService:INFO]GetDeviceList
+[1072072.706 (013157):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1072079.294 (013157):DiscoveryServiceServer:INFO]GetDeviceList
+[1072079.294 (013157):DiscoveryServiceITC:INFO]GetDeviceList
+[1072079.294 (013158):SsdpService:INFO]GetDeviceList
+[1072079.295 (013157):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1072081.579 (013157):Network:INFO]Received EOS (fd 24)
+[1072081.579 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072081.579 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072081.579 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072081.579 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072081.579 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1072082.145 (013157):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1072082.145 (013157):DiscoveryServiceServer:INFO]Create
+[1072082.145 (013157):DiscoveryServiceServer:INFO]Initialize
+[1072082.145 (013157):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1072082.873 (013159):mDNS:ERROR]ClientStatus: Daemon connection failed at /scratch/scm/Lisa/trunk/sandbox3/Core/MDNS/AvahiImpl.cpp line 371
+[1072082.873 (013160):mDNS:ERROR]ClientStatus: Daemon connection failed at /scratch/scm/Lisa/trunk/sandbox3/Core/MDNS/AvahiImpl.cpp line 371
+[1072082.874 (013158):MdnsService:INFO]ReconnectClient()
+[1072082.875 (013158):mDNS:INFO]Connecting...
+[1072082.875 (013158):MdnsService:INFO]ReconnectPublisher()
+[1072083.619 (018370):mDNS:INFO]Client state: REGISTERING.
+WARNING: Unhandled message: interface=(null), path=(null), member=(null)
+[1072083.619 (013158):mDNS:INFO]Client state: REGISTERING.
+[1072084.530 (018370):mDNS:INFO]Client state: RUNNING.
+[1072084.530 (018401):mDNS:INFO]Client state: RUNNING.
+[1072084.530 (013158):MdnsService:INFO]ClientConnected()
+[1072084.530 (013158):MdnsService:INFO]PublisherConnected()
+[1072084.716 (013158):MdnsService:INFO]Discovered(8b3706b2-23af-11e7-9f8e-0242ac110002)
+[1072085.443 (013158):MdnsService:INFO]Resolved(8b3706b2-23af-11e7-9f8e-0242ac110002)
+[1072090.833 (013157):DiscoveryServiceServer:INFO]GetDeviceList
+[1072090.834 (013157):DiscoveryServiceITC:INFO]GetDeviceList
+[1072090.834 (013158):SsdpService:INFO]GetDeviceList
+[1072090.834 (013157):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1072093.027 (013158):MdnsService:INFO]Removed(8b3706b2-23af-11e7-9f8e-0242ac110002)
+[1072093.111 (013157):Network:INFO]Received EOS (fd 24)
+[1072093.111 (013157):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1072093.111 (013157):DiscoveryServiceServer_Router:INFO]Disconnected
+[1072093.111 (013157):DiscoveryServiceServer:INFO]HandleDisconnect
+[1072093.111 (013157):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1072093.111 (013157):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set

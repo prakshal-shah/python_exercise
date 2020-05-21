@@ -1,0 +1,278 @@
+[1071575.165 (001707):SsdpService:INFO]SsdpService::Initialize
+[1071575.165 (001709):MdnsService:INFO]ReconnectClient()
+[1071575.166 (001707):SsdpAPI:INFO]Register
+[1071575.166 (001707):SsdpAPI:INFO]Register Creating SsdpClient
+[1071575.166 (001707):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071575.166 (001707):DiscoveryServiceTestServer:INFO]Server constructor; pid=1707, tid=1707
+[1071575.166 (001707):DiscoveryServiceTestServer:INFO]Initialize; pid=1707, tid=1707
+[1071575.166 (001707):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071575.166 (001707):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071575.166 (001707):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071575.166 (001707):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071575.168 (001709):mDNS:INFO]Client state: RUNNING.
+[1071575.168 (001709):MdnsService:INFO]ReconnectPublisher()
+[1071575.170 (001709):mDNS:INFO]Client state: RUNNING.
+[1071575.170 (001709):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071575.170 (001709):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071575.170 (001709):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071575.170 (001709):MdnsService:INFO]ClientConnected()
+[1071575.171 (001709):MdnsService:INFO]PublisherConnected()
+[1071575.171 (001709):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071575.171 (001709):SsdpAPI:INFO]FireRegisteredEvent
+[1071575.171 (001709):SsdpService:INFO]Registered()
+[1071575.314 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071575.314 (001708):DiscoveryServiceServer:INFO]Create
+[1071575.314 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071577.033 (001709):MdnsService:INFO]Discovered(5c412d84-23ae-11e7-9f8e-0242ac110002)
+[1071577.034 (001709):MdnsService:INFO]Resolved(5c412d84-23ae-11e7-9f8e-0242ac110002)
+[1071577.397 (001709):MdnsService:INFO]Discovered(4d62ac8e-23ae-11e7-ae86-0242ac110003)
+[1071578.039 (001709):MdnsService:INFO]Resolved(4d62ac8e-23ae-11e7-ae86-0242ac110003)
+[1071581.883 (001709):MdnsService:INFO]Removed(4d62ac8e-23ae-11e7-ae86-0242ac110003)
+[1071582.375 (001708):DiscoveryServiceServer:INFO]GetDeviceList
+[1071582.375 (001708):DiscoveryServiceITC:INFO]GetDeviceList
+[1071582.375 (001709):MdnsService:INFO]GetDeviceList()
+[1071582.375 (001708):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071584.293 (001709):MdnsService:INFO]Removed(5c412d84-23ae-11e7-9f8e-0242ac110002)
+[1071588.716 (001708):DiscoveryServiceServer:INFO]GetDeviceList
+[1071588.716 (001708):DiscoveryServiceITC:INFO]GetDeviceList
+[1071588.716 (001709):MdnsService:INFO]GetDeviceList()
+[1071588.716 (001708):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071589.966 (001708):Network:INFO]Received EOS (fd 24)
+[1071589.966 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071589.966 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071589.966 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071589.966 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071589.966 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071590.484 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071590.484 (001708):DiscoveryServiceServer:INFO]Create
+[1071590.484 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071590.484 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071592.276 (001709):MdnsService:INFO]Discovered(654e6c0c-23ae-11e7-9f8e-0242ac110002)
+[1071592.277 (001709):MdnsService:INFO]Resolved(654e6c0c-23ae-11e7-9f8e-0242ac110002)
+[1071593.795 (001709):MdnsService:INFO]Discovered(66628e20-23ae-11e7-9f8e-0242ac110002)
+[1071593.796 (001709):MdnsService:INFO]Resolved(66628e20-23ae-11e7-9f8e-0242ac110002)
+[1071595.427 (001709):MdnsService:INFO]Discovered(675fff42-23ae-11e7-9f8e-0242ac110002)
+[1071595.428 (001709):MdnsService:INFO]Resolved(675fff42-23ae-11e7-9f8e-0242ac110002)
+[1071598.862 (001708):DiscoveryServiceServer:INFO]GetDeviceList
+[1071598.862 (001708):DiscoveryServiceITC:INFO]GetDeviceList
+[1071598.862 (001709):MdnsService:INFO]GetDeviceList()
+[1071598.862 (001708):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071600.580 (001709):MdnsService:INFO]Removed(654e6c0c-23ae-11e7-9f8e-0242ac110002)
+[1071601.039 (001709):MdnsService:INFO]Removed(66628e20-23ae-11e7-9f8e-0242ac110002)
+[1071605.417 (001708):DiscoveryServiceServer:INFO]GetDeviceList
+[1071605.417 (001708):DiscoveryServiceITC:INFO]GetDeviceList
+[1071605.417 (001709):MdnsService:INFO]GetDeviceList()
+[1071605.417 (001708):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071607.078 (001709):MdnsService:INFO]Removed(675fff42-23ae-11e7-9f8e-0242ac110002)
+[1071607.703 (001708):Network:INFO]Received EOS (fd 24)
+[1071607.703 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071607.703 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071607.703 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071607.703 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071607.703 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071608.260 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071608.260 (001708):DiscoveryServiceServer:INFO]Create
+[1071608.260 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071608.260 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071614.639 (001708):DiscoveryServiceServer:INFO]GetDeviceList
+[1071614.640 (001708):DiscoveryServiceITC:INFO]GetDeviceList
+[1071614.640 (001709):MdnsService:INFO]GetDeviceList()
+[1071614.640 (001708):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071615.890 (001708):Network:INFO]Received EOS (fd 24)
+[1071615.891 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071615.891 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071615.891 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071615.891 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071615.891 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071616.484 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071616.484 (001708):DiscoveryServiceServer:INFO]Create
+[1071616.484 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071616.484 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071617.846 (001709):MdnsService:INFO]Discovered(74c38050-23ae-11e7-9f8e-0242ac110002)
+[1071617.847 (001709):MdnsService:INFO]Resolved(74c38050-23ae-11e7-9f8e-0242ac110002)
+[1071618.009 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=74c38050-23ae-11e7-9f8e-0242ac110002
+[1071618.009 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071618.009 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = 74c38050-23ae-11e7-9f8e-0242ac110002
+[1071618.009 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 74c38050-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071618.009 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=74c38050-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071619.852 (001709):MdnsService:INFO]Removed(74c38050-23ae-11e7-9f8e-0242ac110002)
+[1071619.853 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=74c38050-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071620.660 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071620.660 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071622.037 (001708):Network:INFO]Received EOS (fd 24)
+[1071622.037 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071622.037 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071622.037 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071622.037 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071622.038 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071622.538 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071622.538 (001708):DiscoveryServiceServer:INFO]Create
+[1071622.538 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071622.538 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071623.305 (001709):MdnsService:INFO]Discovered(785ccd7a-23ae-11e7-9f8e-0242ac110002)
+[1071623.886 (001709):MdnsService:INFO]Resolved(785ccd7a-23ae-11e7-9f8e-0242ac110002)
+[1071624.330 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=2d2dca6e9dc8
+[1071624.330 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071624.330 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = 2d2dca6e9dc8
+[1071624.330 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 2d2dca6e9dc8, status=1**********
+[1071624.330 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=785ccd7a-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071626.182 (001709):MdnsService:INFO]Removed(785ccd7a-23ae-11e7-9f8e-0242ac110002)
+[1071626.183 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=785ccd7a-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071627.259 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071627.259 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071628.660 (001708):Network:INFO]Received EOS (fd 24)
+[1071628.660 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071628.660 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071628.660 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071628.660 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071628.660 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071629.477 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071629.477 (001708):DiscoveryServiceServer:INFO]Create
+[1071629.477 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071629.477 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071629.636 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=garbage
+[1071629.636 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071629.636 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = garbage
+[1071629.636 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= garbage, status=1**********
+[1071631.162 (001709):MdnsService:INFO]Discovered(7cddf8a6-23ae-11e7-9f8e-0242ac110002)
+[1071631.597 (001709):MdnsService:INFO]Resolved(7cddf8a6-23ae-11e7-9f8e-0242ac110002)
+[1071631.597 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7cddf8a6-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071633.362 (001709):MdnsService:INFO]Discovered(7e143ea6-23ae-11e7-ae86-0242ac110003)
+[1071633.363 (001709):MdnsService:INFO]Resolved(7e143ea6-23ae-11e7-ae86-0242ac110003)
+[1071633.363 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7e143ea6-23ae-11e7-ae86-0242ac110003, DeviceState=ONLINE
+[1071633.947 (001709):MdnsService:INFO]Discovered(7e449ae2-23ae-11e7-9f8e-0242ac110002)
+[1071633.948 (001709):MdnsService:INFO]Resolved(7e449ae2-23ae-11e7-9f8e-0242ac110002)
+[1071633.948 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7e449ae2-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071636.438 (001709):MdnsService:INFO]Discovered(7fbfa48e-23ae-11e7-9f8e-0242ac110002)
+[1071636.439 (001709):MdnsService:INFO]Resolved(7fbfa48e-23ae-11e7-9f8e-0242ac110002)
+[1071636.439 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7fbfa48e-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071638.300 (001709):MdnsService:INFO]Removed(7cddf8a6-23ae-11e7-9f8e-0242ac110002)
+[1071638.301 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7cddf8a6-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071640.067 (001709):MdnsService:INFO]Removed(7e449ae2-23ae-11e7-9f8e-0242ac110002)
+[1071640.067 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7e449ae2-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071642.460 (001709):MdnsService:INFO]Removed(7fbfa48e-23ae-11e7-9f8e-0242ac110002)
+[1071642.460 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7fbfa48e-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071644.513 (001709):MdnsService:INFO]Removed(7e143ea6-23ae-11e7-ae86-0242ac110003)
+[1071644.513 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=7e143ea6-23ae-11e7-ae86-0242ac110003, DeviceState=OFFLINE
+[1071649.502 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071649.502 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071651.754 (001708):Network:INFO]Received EOS (fd 24)
+[1071651.754 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071651.754 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071651.754 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071651.754 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071651.754 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071652.371 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071652.371 (001708):DiscoveryServiceServer:INFO]Create
+[1071652.371 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071652.372 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071652.855 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=8a4b289c-23ae-11e7-9f8e-0242ac110002
+[1071652.855 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071652.855 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = 8a4b289c-23ae-11e7-9f8e-0242ac110002
+[1071652.855 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 8a4b289c-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071654.351 (001709):MdnsService:INFO]Discovered(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071654.352 (001709):MdnsService:INFO]Resolved(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071654.352 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=8a4b289c-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071656.273 (001709):MdnsService:INFO]Removed(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071656.274 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=8a4b289c-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071658.110 (001709):MdnsService:INFO]Discovered(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071658.111 (001709):MdnsService:INFO]Resolved(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071658.111 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=8a4b289c-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071659.941 (001709):MdnsService:INFO]Removed(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071659.942 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=8a4b289c-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071661.695 (001709):MdnsService:INFO]Discovered(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071661.696 (001709):MdnsService:INFO]Resolved(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071661.696 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=8a4b289c-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071663.583 (001709):MdnsService:INFO]Removed(8a4b289c-23ae-11e7-9f8e-0242ac110002)
+[1071663.584 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=8a4b289c-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071664.342 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071664.342 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071665.593 (001708):Network:INFO]Received EOS (fd 24)
+[1071665.593 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071665.593 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071665.593 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071665.593 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071665.593 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071666.117 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071666.117 (001708):DiscoveryServiceServer:INFO]Create
+[1071666.117 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071666.118 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071667.118 (001709):MdnsService:INFO]Discovered(92670b0e-23ae-11e7-9f8e-0242ac110002)
+[1071667.717 (001709):MdnsService:INFO]Resolved(92670b0e-23ae-11e7-9f8e-0242ac110002)
+[1071669.125 (001709):MdnsService:INFO]Discovered(935c6ac2-23ae-11e7-9f8e-0242ac110002)
+[1071669.126 (001709):MdnsService:INFO]Resolved(935c6ac2-23ae-11e7-9f8e-0242ac110002)
+[1071670.458 (001709):MdnsService:INFO]Discovered(942baec2-23ae-11e7-9f8e-0242ac110002)
+[1071670.459 (001709):MdnsService:INFO]Resolved(942baec2-23ae-11e7-9f8e-0242ac110002)
+[1071670.702 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=92670b0e-23ae-11e7-9f8e-0242ac110002
+[1071670.702 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071670.702 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = 92670b0e-23ae-11e7-9f8e-0242ac110002
+[1071670.702 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 92670b0e-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071670.702 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=92670b0e-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071671.845 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=a53a38dc0d4d
+[1071671.845 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071671.845 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = a53a38dc0d4d
+[1071671.845 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= a53a38dc0d4d, status=1**********
+[1071671.845 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=935c6ac2-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071672.681 (001709):MdnsService:INFO]Discovered(8639e3d8-23ae-11e7-ae86-0242ac110003)
+[1071673.320 (001709):MdnsService:INFO]Resolved(8639e3d8-23ae-11e7-ae86-0242ac110003)
+[1071673.973 (001709):MdnsService:INFO]Removed(92670b0e-23ae-11e7-9f8e-0242ac110002)
+[1071673.974 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=92670b0e-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071675.790 (001709):MdnsService:INFO]Removed(935c6ac2-23ae-11e7-9f8e-0242ac110002)
+[1071675.791 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=935c6ac2-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071676.775 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071676.775 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071677.375 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071677.375 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071678.944 (001709):MdnsService:INFO]Removed(942baec2-23ae-11e7-9f8e-0242ac110002)
+[1071679.528 (001709):MdnsService:INFO]Removed(8639e3d8-23ae-11e7-ae86-0242ac110003)
+[1071679.702 (001708):Network:INFO]Received EOS (fd 24)
+[1071679.702 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071679.702 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071679.702 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071679.702 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071679.702 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071680.504 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071680.504 (001708):DiscoveryServiceServer:INFO]Create
+[1071680.504 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071680.504 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071682.082 (001709):MdnsService:INFO]Discovered(9afb8790-23ae-11e7-9f8e-0242ac110002)
+[1071682.083 (001709):MdnsService:INFO]Resolved(9afb8790-23ae-11e7-9f8e-0242ac110002)
+[1071682.256 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=9afb8790-23ae-11e7-9f8e-0242ac110002
+[1071682.256 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071682.256 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = 9afb8790-23ae-11e7-9f8e-0242ac110002
+[1071682.256 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 9afb8790-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071682.256 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=9afb8790-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071684.416 (001709):MdnsService:INFO]Removed(9afb8790-23ae-11e7-9f8e-0242ac110002)
+[1071684.417 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=9afb8790-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071685.075 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071685.075 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071686.019 (001709):MdnsService:INFO]Discovered(9afb8790-23ae-11e7-9f8e-0242ac110002)
+[1071686.553 (001709):MdnsService:INFO]Resolved(9afb8790-23ae-11e7-9f8e-0242ac110002)
+[1071695.928 (001709):MdnsService:INFO]Removed(9afb8790-23ae-11e7-9f8e-0242ac110002)
+[1071699.356 (001708):Network:INFO]Received EOS (fd 24)
+[1071699.356 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071699.356 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071699.356 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071699.356 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071699.356 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071700.165 (001708):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071700.165 (001708):DiscoveryServiceServer:INFO]Create
+[1071700.165 (001708):DiscoveryServiceServer:INFO]Initialize
+[1071700.166 (001708):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071700.424 (001708):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=a6a59ac2-23ae-11e7-9f8e-0242ac110002
+[1071700.424 (001708):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071700.425 (001709):MdnsService:INFO]RegisterForDeviceStatus() - DiscoveryFilter = a6a59ac2-23ae-11e7-9f8e-0242ac110002
+[1071700.425 (001708):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= a6a59ac2-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071701.419 (001709):MdnsService:INFO]Discovered(a6a59ac2-23ae-11e7-9f8e-0242ac110002)
+[1071701.883 (001709):MdnsService:INFO]Resolved(a6a59ac2-23ae-11e7-9f8e-0242ac110002)
+[1071701.883 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=a6a59ac2-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071703.669 (001709):MdnsService:INFO]Removed(a6a59ac2-23ae-11e7-9f8e-0242ac110002)
+[1071703.670 (001708):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=a6a59ac2-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071704.335 (001708):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071704.335 (001708):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071705.561 (001708):Network:INFO]Received EOS (fd 24)
+[1071705.561 (001708):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071705.561 (001708):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071705.561 (001708):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071705.561 (001708):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071705.561 (001708):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set

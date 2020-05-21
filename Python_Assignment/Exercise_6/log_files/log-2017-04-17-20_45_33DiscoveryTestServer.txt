@@ -1,0 +1,38 @@
+[1071765.745 (008323):SsdpService:INFO]SsdpService::Initialize
+[1071765.745 (008325):MdnsService:INFO]ReconnectClient()
+[1071765.745 (008323):SsdpAPI:INFO]Register
+[1071765.745 (008323):SsdpAPI:INFO]Register Creating SsdpClient
+[1071765.745 (008323):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071765.745 (008323):DiscoveryServiceTestServer:INFO]Server constructor; pid=8323, tid=8323
+[1071765.745 (008323):DiscoveryServiceTestServer:INFO]Initialize; pid=8323, tid=8323
+[1071765.746 (008323):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071765.746 (008323):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071765.746 (008323):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071765.746 (008323):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071765.747 (008325):mDNS:INFO]Connecting...
+[1071765.747 (008325):MdnsService:INFO]ReconnectPublisher()
+[1071766.061 (008324):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071766.061 (008324):DiscoveryServiceServer:INFO]Create
+[1071766.061 (008324):DiscoveryServiceServer:INFO]Initialize
+[1071766.063 (008324):DiscoveryServiceServer:INFO]MdnsAddService - name: cdc52e06-23ae-11e7-9f8e-0242ac110002
+[1071766.063 (008324):DiscoveryServiceITC:INFO]HandleAddServiceRequest
+[1071790.767 (008325):mDNS:INFO]Connecting...
+[1071790.767 (008325):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071790.767 (008325):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071790.767 (008325):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071790.767 (008325):MdnsService:INFO]AddService(cdc52e06-23ae-11e7-9f8e-0242ac110002 - _testsuperservice._tcp)
+[1071790.768 (008325):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071790.768 (008325):SsdpAPI:INFO]FireRegisteredEvent
+[1071790.768 (008325):SsdpService:INFO]Registered()
+[1071791.353 (008326):mDNS:INFO]Client state: REGISTERING.
+[1071791.353 (009090):mDNS:INFO]Client state: REGISTERING.
+[1071792.295 (008326):mDNS:INFO]Client state: RUNNING.
+[1071792.295 (009090):mDNS:INFO]Client state: RUNNING.
+[1071792.295 (008325):MdnsService:INFO]ClientConnected()
+[1071792.296 (008325):MdnsService:INFO]PublisherConnected()
+[1071796.092 (008324):Network:INFO]Received EOS (fd 17)
+[1071796.093 (008324):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071796.093 (008324):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071796.093 (008324):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071796.093 (008324):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071796.093 (008324):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set

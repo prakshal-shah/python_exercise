@@ -1,0 +1,99 @@
+[1071539.967 (000169):SsdpService:INFO]SsdpService::Initialize
+[1071539.967 (000174):MdnsService:INFO]ReconnectClient()
+[1071539.967 (000169):SsdpAPI:INFO]Register
+[1071539.967 (000169):SsdpAPI:INFO]Register Creating SsdpClient
+[1071539.967 (000169):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071539.967 (000169):DiscoveryServiceTestServer:INFO]Server constructor; pid=169, tid=169
+[1071539.967 (000169):DiscoveryServiceTestServer:INFO]Initialize; pid=169, tid=169
+[1071539.968 (000169):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071539.968 (000169):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071539.968 (000169):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071539.968 (000169):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071539.969 (000174):mDNS:INFO]Client state: RUNNING.
+[1071539.969 (000174):MdnsService:INFO]ReconnectPublisher()
+[1071539.971 (000174):mDNS:INFO]Client state: RUNNING.
+[1071539.971 (000174):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071539.971 (000174):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071539.971 (000174):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071539.971 (000174):MdnsService:INFO]ClientConnected()
+[1071539.972 (000174):MdnsService:INFO]PublisherConnected()
+[1071539.989 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 15): Connection refused
+[1071540.089 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 15): Connection refused
+[1071540.155 (000173):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071540.155 (000173):DiscoveryServiceServer:INFO]Create
+[1071540.155 (000173):DiscoveryServiceServer:INFO]Initialize
+[1071540.190 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.290 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.391 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.491 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.591 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.692 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.737 (000173):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=475ecba6-23ae-11e7-9f8e-0242ac110002
+[1071540.737 (000173):DiscoveryServiceITC:INFO]RegisterForDeviceStatusSSDP
+[1071540.737 (000174):SsdpService:INFO]RegisterForDeviceStatus() - DiscoveryFilter= 475ecba6-23ae-11e7-9f8e-0242ac110002
+[1071540.737 (000174):SsdpAPI:INFO]RegisterForMediaServerDeviceStatus
+[1071540.738 (000173):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 475ecba6-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071540.792 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.893 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071540.993 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.094 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.194 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.245 (000173):DiscoveryServiceServer:INFO]RegisterForDeviceStatus() filter=476bc266-23ae-11e7-9f8e-0242ac110002
+[1071541.245 (000173):DiscoveryServiceITC:INFO]RegisterForDeviceStatusMdns
+[1071541.246 (000174):MdnsService:INFO]RegisterForDeviceStatus() - [system:ERROR] whith DiscoveryFilter = 476bc266-23ae-11e7-9f8e-0242ac110002
+[1071541.246 (000173):DiscoveryServiceServer:INFO]RegistrationStatusCallback()****Filter= 476bc266-23ae-11e7-9f8e-0242ac110002, status=1**********
+[1071541.295 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.395 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.496 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.596 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.696 (000177):Network:ERROR]Failed connect call for 127.0.0.1:40010 (fd 23): Connection refused
+[1071541.797 (000174):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071541.797 (000174):SsdpAPI:INFO]FireRegisteredEvent
+[1071541.797 (000174):SsdpService:INFO]Registered()
+[1071542.427 (000174):MdnsService:INFO]Discovered(47e0df9c-23ae-11e7-ae86-0242ac110003)
+[1071542.428 (000174):MdnsService:INFO]Resolved(47e0df9c-23ae-11e7-ae86-0242ac110003)
+[1071547.979 (000174):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=475ecba6-23ae-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:475ecba6-23ae-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43609/475ecba6-23ae-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=ONLINE
+[1071547.979 (000173):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071548.749 (000174):MdnsService:INFO]Removed(47e0df9c-23ae-11e7-ae86-0242ac110003)
+[1071550.436 (000174):MdnsService:INFO]Discovered(476bc266-23ae-11e7-9f8e-0242ac110002)
+[1071550.437 (000174):MdnsService:INFO]Resolved(476bc266-23ae-11e7-9f8e-0242ac110002)
+[1071550.437 (000173):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=476bc266-23ae-11e7-9f8e-0242ac110002, DeviceState=ONLINE
+[1071551.374 (000174):SsdpService:INFO]HandleDeviceStatus()-Calling cb for registered filter=475ecba6-23ae-11e7-9f8e-0242ac110002, DeviceInfo.id=uuid:475ecba6-23ae-11e7-9f8e-0242ac110002,location=http://172.17.0.2:43609/475ecba6-23ae-11e7-9f8e-0242ac110002/description-1.xml, DeviceState=OFFLINE
+[1071551.374 (000173):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackSsdp
+[1071553.403 (000174):MdnsService:INFO]Removed(476bc266-23ae-11e7-9f8e-0242ac110002)
+[1071553.405 (000173):DiscoveryServiceServer:INFO]DeviceDiscoveryCallbackMdns, Name=476bc266-23ae-11e7-9f8e-0242ac110002, DeviceState=OFFLINE
+[1071554.926 (000173):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071554.926 (000173):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071555.385 (000173):DiscoveryServiceServer:INFO]UnregisterForDeviceStatus
+[1071555.385 (000173):DiscoveryServiceITC:INFO]UnRegisterForDeviceStatus
+[1071555.385 (000174):SsdpAPI:INFO]UnRegisterForMediaServerDeviceStatus
+[1071556.636 (000173):Network:INFO]Received EOS (fd 15)
+[1071556.636 (000173):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: [system:ERROR] Receive failed, disconnecting
+[1071556.636 (000173):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071556.636 (000173):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071556.636 (000173):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071556.636 (000173):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
+[1071557.346 (000173):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071557.346 (000173):DiscoveryServiceServer:INFO]Create
+[1071557.346 (000173):DiscoveryServiceServer:INFO]Initialize
+[1071557.346 (000173):DiscoveryServiceServer:INFO]~DiscoveryServiceServer
+[1071558.872 (000174):MdnsService:INFO]Discovered(51959690-23ae-11e7-9f8e-0242ac110002)
+[1071558.873 (000174):MdnsService:INFO]Resolved(51959690-23ae-11e7-9f8e-0242ac110002)
+[1071564.106 (000174):MdnsService:INFO]Discovered(54a52fbc-23ae-11e7-9f8e-0242ac110002)
+[1071564.107 (000174):MdnsService:INFO]Resolved(54a52fbc-23ae-11e7-9f8e-0242ac110002)
+[1071570.527 (000173):DiscoveryServiceServer:INFO]GetDeviceList
+[1071570.527 (000173):DiscoveryServiceITC:INFO]GetDeviceList
+[1071570.527 (000174):SsdpService:INFO]GetDeviceList
+[1071570.527 (000173):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071571.060 (000173):DiscoveryServiceServer:INFO]GetDeviceList
+[1071571.060 (000173):DiscoveryServiceITC:INFO]GetDeviceList
+[1071571.060 (000174):MdnsService:INFO]GetDeviceList()
+[1071571.061 (000173):DiscoveryServiceServer:INFO]MediaServerListResponse
+[1071573.130 (000174):MdnsService:INFO]Removed(54a52fbc-23ae-11e7-9f8e-0242ac110002)
+[1071573.973 (000174):MdnsService:INFO]Removed(51959690-23ae-11e7-9f8e-0242ac110002)
+[1071574.305 (000173):Network:INFO]Received EOS (fd 15)
+[1071574.305 (000173):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071574.305 (000173):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071574.305 (000173):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071574.305 (000173):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071574.305 (000173):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set

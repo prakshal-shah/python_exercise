@@ -1,0 +1,49 @@
+[1071884.795 (012076):SsdpService:INFO]SsdpService::Initialize
+[1071884.795 (012078):MdnsService:INFO]ReconnectClient()
+[1071884.795 (012076):SsdpAPI:INFO]Register
+[1071884.795 (012076):SsdpAPI:INFO]Register Creating SsdpClient
+[1071884.795 (012076):DiscoveryServiceITC:INFO]DiscoveryServiceITC Constructor...
+[1071884.795 (012076):DiscoveryServiceTestServer:INFO]Server constructor; pid=12076, tid=12076
+[1071884.795 (012076):DiscoveryServiceTestServer:INFO]Initialize; pid=12076, tid=12076
+[1071884.795 (012076):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071884.795 (012076):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071884.795 (012076):IPCDirectory:INFO]DefaultAddress: Service 'DiscoveryService' at 'stream://localhost:40028?no_delay&nonblocking'
+[1071884.795 (012076):DiscoveryServiceServerListener:INFO]Serving address: stream://localhost:40028?no_delay&nonblocking
+[1071884.797 (012078):mDNS:INFO]Connecting...
+[1071884.797 (012078):MdnsService:INFO]ReconnectPublisher()
+[1071884.959 (012077):DiscoveryServiceTestServer:INFO]AcceptNewClient - START
+[1071884.959 (012077):DiscoveryServiceServer:INFO]Create
+[1071884.959 (012077):DiscoveryServiceServer:INFO]Initialize
+[1071885.051 (012077):DiscoveryServiceServer:INFO]RegisterForServiceStatus()
+[1071885.051 (012077):DiscoveryServiceITC:INFO]RegisterForServiceStatus
+[1071909.799 (012078):mDNS:INFO]Connecting...
+[1071909.799 (012078):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071909.799 (012078):IPCDirectory:ERROR]stat services.json: No such file or directory
+[1071909.799 (012078):IPCDirectory:INFO]DefaultAddress: Service 'SsdpControl' at 'stream://localhost:40010?no_delay&nonblocking'
+[1071909.799 (012078):SsdpService:INFO]RegisterForServiceStatus()
+[1071909.799 (012077):DiscoveryServiceServer:INFO]ServiceStatusCallback()
+[1071909.799 (012077):DiscoveryServiceServer:INFO]ServiceStatusCallback(), sending status: RESTARTING, protocol: 2
+[1071909.799 (012078):SsdpControl:INFO]Creating router with name SsdpControl_Router
+[1071909.800 (012078):SsdpAPI:INFO]FireRegisteredEvent
+[1071909.800 (012078):SsdpService:INFO]Registered()
+[1071910.657 (012855):mDNS:INFO]Client state: REGISTERING.
+[1071910.657 (012079):mDNS:INFO]Client state: REGISTERING.
+[1071911.420 (012079):mDNS:INFO]Client state: RUNNING.
+[1071911.420 (012855):mDNS:INFO]Client state: RUNNING.
+[1071911.420 (012078):MdnsService:INFO]ClientConnected()
+[1071911.421 (012078):MdnsService:INFO]PublisherConnected()
+[1071911.421 (012077):DiscoveryServiceServer:INFO]ServiceStatusCallback()
+[1071911.421 (012077):DiscoveryServiceServer:INFO]ServiceStatusCallback(), sending status: AVAILABLE, protocol: 2
+[1071913.765 (012855):mDNS:ERROR]ClientStatus: Daemon connection failed at /scratch/scm/Lisa/trunk/sandbox3/Core/MDNS/AvahiImpl.cpp line 371
+[1071913.765 (012079):mDNS:ERROR]ClientStatus: Daemon connection failed at /scratch/scm/Lisa/trunk/sandbox3/Core/MDNS/AvahiImpl.cpp line 371
+[1071913.765 (012078):MdnsService:INFO]ReconnectPublisher()
+[1071913.767 (012078):mDNS:INFO]Connecting...
+[1071913.767 (012078):MdnsService:INFO]ReconnectClient()
+[1071913.767 (012077):DiscoveryServiceServer:INFO]ServiceStatusCallback()
+[1071913.767 (012077):DiscoveryServiceServer:INFO]ServiceStatusCallback(), sending status: RESTARTING, protocol: 2
+[1071916.898 (012077):Network:INFO]Received EOS (fd 17)
+[1071916.898 (012077):DiscoveryServiceServer_Router:WARNING]HandleSocketActivity: Receive failed, disconnecting
+[1071916.898 (012077):DiscoveryServiceServer_Router:INFO]Disconnected
+[1071916.898 (012077):DiscoveryServiceServer:INFO]HandleDisconnect
+[1071916.898 (012077):DiscoveryServiceServer_Router:INFO]Disconnect Requested...
+[1071916.898 (012077):DiscoveryServiceServer_Router:INFO]Disconnected when socket is not set
